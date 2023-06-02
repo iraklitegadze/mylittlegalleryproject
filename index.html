@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+   <div class="loader" id="loader">
+    <button type="submit" class="btn" id="close" onclick="myFunction()"><img src="./download.jpg" alt=""></button>
+   </div>
+   
+  
+  <div class="container" id="slider">
+    <div class="header">
+        <a href="https://www.instagram.com/iktegson/" target="_blank">
+        <img src="./download.jpg" alt="" ></a>
+        <img src="./download.png" alt="" id="back" onclick="myFunction1()">
+    </div>
+    <div class="mySlides" style="display: block;">
+      <div class="numbertext">1 / 6</div>
+      <img src="./00458E93-E888-4EEF-B850-EAC01CFFB911.jpg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="./4B0B82B9-D918-42C4-9E6C-70BEEE4C57B1.jpg" >
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="./IMG_0265.jpg" >
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="./IMG_1997_Original - Copy.jpg" >
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="./IMG_2352_jpg.jpg" >
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="./IMG_2353_jpg.jpg" >
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="./00458E93-E888-4EEF-B850-EAC01CFFB911.jpg"  onclick="currentSlide(1)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./4B0B82B9-D918-42C4-9E6C-70BEEE4C57B1.jpg"  onclick="currentSlide(2)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./IMG_0265.jpg" onclick="currentSlide(3)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./IMG_1997_Original - Copy.jpg" onclick="currentSlide(4)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./IMG_2352_jpg.jpg"  onclick="currentSlide(5)" >
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="./IMG_4539_Original.jpg"  onclick="currentSlide(6)" >
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

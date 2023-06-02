@@ -1,0 +1,176 @@
+img{
+    max-width: 100%;
+margin: 0 auto;
+
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    
+    overflow: hidden;
+    background-color: #222;
+  }
+  .container{
+    background-color: #222;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#back, #close{
+    cursor: pointer;
+
+}
+.loader{
+    background-image: url(./HD-wallpaper-instagram-red-logo-red-neon-lights-creative-red-abstract-background-instagram-logo-social-network-instagram-thumbnail.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+text-align: center;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.header img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.btn img{
+    width: 50px;
+    background-color: transparent;
+   margin-top: 18rem;
+   
+}
+
+.btn:hover{
+    background-color: orangered;
+    border: none;
+  
+}
+
+/*.loader{
+display: none;
+}*/
+#slider{
+    display: none;
+}
+
+
+
+img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+
+  @media screen and (min-width:978px) {
+   .container{
+    background-color: #222;
+   }
+    .mySlides img{
+        max-width: 400px;
+    }
+
+    .mySlides{
+        text-align: center;
+    }
+
+    .prev, .next{
+        background-color: orangered;
+    }
+  } 
+    
+  
